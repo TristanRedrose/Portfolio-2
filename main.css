@@ -6,19 +6,26 @@ body {
     color: #2d2e32;
 }
 
-.nav-container {
+nav {
     position: fixed;
     z-index: 10;
-    box-sizing: border-box;
-    padding: 0px 25px;
-    height: 80px;
     width: 100%;
     background-color: #fff;
     top: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    max-width: 1440px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 25px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0,0,0,.09);
     font-size: 1.1rem;
 }
 
@@ -176,8 +183,8 @@ a:link {
 }
 
 .hero-image-container {
-    width: 250px;
-    height: 300px;
+    width: 275px;
+    height: 270px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -657,8 +664,8 @@ footer .container {
 @media only screen and (max-width: 1000px) {
 
     .hero-image-container {
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 245px;
     }
 
     .projects-wrapper {
